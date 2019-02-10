@@ -17,17 +17,26 @@ class LandingPage extends Component {
               <h1>Full Satck Web Developer</h1>
               <hr />
               <p>
-                HTML/CSS | Bootstrap | Javasript | React | React
-                Native | NodeJs | Express | MongoDB| MySQL
+                HTML/CSS | Bootstrap | Javasript | React | React Native | NodeJs
+                | Express | MongoDB| MySQL
               </p>
               <div className="social-links">
-              {/*LinkedIn*/}
-              <a href="https://www.linkedin.com/in/cuzqulu/" rel="noonopener noreferrer" target="_blank">
-              <i className="fa fa-linkedin-square" aria-hidden="true"/></a>
-              {/*GitHub*/}
-              <a href="https://github.com/luiscuzquen" rel="noonopener noreferrer" target="_blank">
-              <i className="fa fa-github-square" aria-hidden="true"/></a>
-              
+                {/*LinkedIn*/}
+                <a
+                  href="https://www.linkedin.com/in/cuzqulu/"
+                  rel="noonopener noreferrer"
+                  target="_blank"
+                >
+                  <i className="fa fa-linkedin-square" aria-hidden="true" />
+                </a>
+                {/*GitHub*/}
+                <a
+                  href="https://github.com/luiscuzquen"
+                  rel="noonopener noreferrer"
+                  target="_blank"
+                >
+                  <i className="fa fa-github-square" aria-hidden="true" />
+                </a>
               </div>
             </div>
           </Cell>
