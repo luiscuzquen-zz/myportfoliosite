@@ -14,8 +14,8 @@ class Resume extends Component {
   state = {};
   render() {
     return (
-      <div>
-        <Grid>
+      <div className="resume">
+        <Grid > 
           <Cell col={4}>
             <div style={{ textAlign: "center" }}>
               <img

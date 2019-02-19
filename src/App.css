@@ -10,6 +10,7 @@
     #d7d2cc,
     #304352
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  position: fixed
 }
 
 .landing-grid {
@@ -32,16 +33,16 @@
 }
 
 .avatar-img {
-  height: 250px;
+  height: 230px;
   padding-top: 5em;
 }
 
 .banner-text {
   background-color: black;
   opacity: 0.8;
-  width: 75%;
+  width: 90%;
+  height: auto;
   margin: auto;
-  border-radius: 10px;
 }
 
 .banner-text h1 {
@@ -52,7 +53,8 @@
 
 .banner-text hr {
   border-top: 5px dotted white;
-  width: 50%;
+  width: auto;
+  height: auto;
   margin: auto;
 }
 
@@ -67,6 +69,7 @@
   justify-content: space-between;
   width: 50%;
   margin: auto;
+  font-size: 10px
 }
 
 .social-links i {
@@ -76,7 +79,11 @@
 }
 
 .projects-grid {
-  display: flex;
+  display: flex
+}
+.project-menu{
+  padding: auto;
+  padding-top: 50px
 }
 
 .contact-body{
@@ -123,6 +130,8 @@
 
 .resume-right-col{
   background: gray;
-  color: white
+  color: white}
 
-}
+  .resume{
+    padding-top: 40px
+  }
